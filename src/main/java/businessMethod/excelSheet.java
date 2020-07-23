@@ -31,6 +31,7 @@ private static final int flag = 0;
 	
 	
 	this.firstname = sheet1.getRow(1).getCell(0).toString();
+	System.out.println("firstname");
 	this.lasttname = sheet1.getRow(1).getCell(1).toString();
 	this.mail = sheet1.getRow(1).getCell(2).toString();
 	this.password = sheet1.getRow(1).getCell(3).toString();
